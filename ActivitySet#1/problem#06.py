@@ -10,6 +10,7 @@ while True:
         num=int(n)
     except:
         print("invalide input\n")
+        continue
     if minimum==None:
         minimum=num
     elif minimum>num:
