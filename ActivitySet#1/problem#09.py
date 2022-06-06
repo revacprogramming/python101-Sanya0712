@@ -1,4 +1,4 @@
-# Lists
+# List
 
 #file name=romeo.txt
 file_name = input("Enter file name: ")
