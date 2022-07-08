@@ -17,8 +17,8 @@ datacomputacional = urllib.request.urlopen(url)
 datapython = datacomputacional.read()
 info = json.loads(datapython)
 
-count = 0
-sum = 0
+count=0
+sum=0
 
 for item in info["comments"]:
     count += 1
