@@ -24,5 +24,5 @@ for item in info["comments"]:
     count += 1
     sum += float (item["count"])
 
-print (count)
-print (sum)
+print(count)
+print(sum)
