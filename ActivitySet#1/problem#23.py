@@ -27,7 +27,7 @@ url = serviceurl + urllib.parse.urlencode(dict0)
 uh = urllib.request.urlopen(url, context=ctx)
 data = uh.read().decode()
 
-js = json.loads(data)
+js=json.loads(data)
 
 id = js['results'][0]['place_id']
 print('Place ID:', id)
